@@ -83,7 +83,7 @@ n-install sets both `PREFIX` and `N_PREFIX` to `$HOME/n`, installs `n` to `$HOME
 
 As a result, both `n` itself and all Node.js versions it manages are hosted inside a single, optionally configurable directory, which you can later remove with the included `n-uninstall` script. `n-update` updates `n` itself to the latest version. See the [n-install repo](https://github.com/mklement0/n-install) for more details.
 
-## Installing Node.js Versions
+## Installing Node.js Versions:
 
 Simply execute `n <version>` to download and install a version of Node.js. If `<version>` has already been downloaded, `n` will install from its cache.
 
